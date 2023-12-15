@@ -40,5 +40,5 @@ jobs:
       - name: capture build artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: PVPControl Artifacts
+          name: BetterEnchantBook Artifacts
           path: build/libs/
