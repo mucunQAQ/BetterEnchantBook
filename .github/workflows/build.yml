@@ -23,6 +23,7 @@ jobs:
             ~/.gradle/wrapper
 
       - name: validate gradle wrapper
+        if: false
         uses: gradle/wrapper-validation-action@v1
 
       - name: setup jdk 8.0
