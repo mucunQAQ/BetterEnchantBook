@@ -6,7 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import top.whcraft.betterenchantbook.Listener.PrepareAnvilListener;
 
 public final class Main extends JavaPlugin {
-    protected static Main instance;
+    private static Main instance;
 
     CommandSender Console = Bukkit.getConsoleSender();
 
