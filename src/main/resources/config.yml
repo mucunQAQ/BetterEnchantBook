@@ -1,0 +1,30 @@
+# 经验乘数 | 铁毡消耗的经验 = 经验乘数*物品等级 + 原版要的经验
+expMultiplier: 0
+
+# 附魔给物品的乘数 | 铁毡消耗的经验 = 乘数*附魔等级 + 原版要的经验
+itemExpMultiplier: 0
+
+# 高级附魔书 lore 的名字 | 留空不启用
+bookLore: ''
+
+# 禁止叠加的附魔类型
+# 附魔的名字可以从这里找到: https://bukkit.windit.net/javadoc/org/bukkit/enchantments/Enchantment.html
+banEnchants:
+  # 附魔：经验修补
+  - MENDING
+  #火矢
+  - ARROW_FIRE
+  #绑定诅咒
+  - BINDING_CURSE
+  - SILK_TOUCH
+  - WATER_WORKER
+  - VANISHING_CURSE
+  - CHANNELING
+  - ARROW_INFINITE
+  - MULTISHOT
+
+# 限制最高等级的附魔
+maxLevelLimit:
+  ARROW_KNOCKBACK: 6
+  KNOCKBACK: 6
+

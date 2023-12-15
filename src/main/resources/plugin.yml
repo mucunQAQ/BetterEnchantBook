@@ -1,0 +1,4 @@
+name: BetterEnchantBook
+version: '${version}'
+main: top.whcraft.betterenchantbook.Main
+api-version: '1.20'
