@@ -92,7 +92,7 @@ public class PrepareAnvilListener implements Listener {
                     }
                 }
 
-                evt.getInventory().setRepairCost((int) ((double) evt.getInventory().getRepairCost() + expCost));
+                evt.getView().setRepairCost((int) ((double) evt.getView().getRepairCost() + expCost));
                 ItemStack result = new ItemStack(Material.ENCHANTED_BOOK, 1);
                 EnchantmentStorageMeta resultMeta = (EnchantmentStorageMeta) result.getItemMeta();
                 totalEnchantment.forEach((enchantment, integer) -> {
@@ -125,7 +125,7 @@ public class PrepareAnvilListener implements Listener {
                     return;
                 }
 
-                evt.getInventory().setRepairCost((int) ((double) evt.getInventory().getRepairCost() + expCost.get()));
+                evt.getView().setRepairCost((int) ((double) evt.getView().getRepairCost() + expCost.get()));
                 ItemStack result = itemFirst.clone();
                 result.addUnsafeEnchantments(itemPlusEnchantments);
                 evt.setResult(result);
